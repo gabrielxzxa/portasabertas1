@@ -2,7 +2,7 @@ html,
 body {
     min-height: 100%;
     margin: 0;
-    padding: 0 !important;
+    padding: 0;
 }
 
 body {
@@ -13,16 +13,16 @@ body {
 
 
 .footer-nexora-contact {
+
     background: linear-gradient(
-  90deg,
-  #11183B 0%,
-  #141D48 50%,
-  #1D3477 100%
+        90deg,
+        #11183B 0%,
+        #141D48 50%,
+        #1D3477 100%
+    );
 
-);
-   padding: 15px;
-
-    color:white;
+    padding: 50px;
+    color: white;
     box-sizing: border-box;
 }
 
@@ -37,4 +37,49 @@ body {
 
 textarea#message {
     resize: none;
+}
+
+
+.footer-nexora-about {
+    padding: 5px;
+    text-align: center;
+
+    background: linear-gradient(
+        90deg,
+        #11183B 0%,
+        #141D48 50%,
+        #1D3477 100%
+    );
+}
+
+
+.footer-nexora-about h5 {
+    color: white;
+    position: relative;
+    top: -30px;
+}
+
+.footer-nexora-about p {
+    color: white;
+    position: relative;
+    top: -30px;
+}
+.footer-nexora-home {
+   margin-top: auto;
+
+    background: linear-gradient(
+        90deg,
+        #11183B 0%,
+        #141D48 50%,
+        #1D3477 100%
+    );
+
+    padding: 30px;
+    color: white;
+    box-sizing: border-box;
+}
+.footer-nexora-home h5{
+    color:white;
+    text-align: center;
+    
 }

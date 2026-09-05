@@ -1,3 +1,40 @@
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0 !important;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-nexora-contact {
+    background: linear-gradient(
+  90deg,
+  #11183B 0%,
+  #141D48 50%,
+  #1D3477 100%
+
+);
+   padding: 15px;
+
+    color:white;
+    box-sizing: border-box;
+}
+
+.footer-nexora-contact h5 {
+    color: white;
+}
+
+.footer-nexora-contact p {
+    color: white;
+}
+
+
 textarea#message {
     resize: none;
 }

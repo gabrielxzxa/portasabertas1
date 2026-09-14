@@ -255,6 +255,24 @@ transition: all 0.2s ease;
 .nav2{
 color: yellow !important;;
 }
+
+.language-switcher {
+display: flex;
+align-items: center;
+gap: 0.15rem;
+}
+
+.language-switcher span {
+font-family: var(--n-font-display);
+font-weight: 600;
+color: rgb(152, 119, 119);
+}
+
+.language-switcher .nav-link {
+padding-left: 0.45rem !important;
+padding-right: 0.45rem !important;
+}
+
 .navbar-nexora .nav-link:hover,
 .navbar-nexora .nav-link.active {
  

@@ -14,6 +14,7 @@
   color: #b8977e;
   text-decoration: none;
 }
+.p1 {color:white}
 
 .submenu {
   display: none; position: absolute;
@@ -964,4 +965,109 @@ object-fit: contain;
 border-radius: 50%;
 display: block;
 margin: 0 auto;
+}
+
+/* IT market page */
+.market-page p { color: var(--n-slate); }
+
+.market-page .market-header-text {
+max-width: 680px;
+color: rgba(255, 255, 255, 0.78);
+font-size: 1.05rem;
+line-height: 1.7;
+}
+
+.market-page .market-eyebrow {
+color: #fff;
+background: rgba(255, 255, 255, 0.12);
+}
+
+.market-page .market-eyebrow::before { background: #fff; }
+
+.market-page .card-premium,
+.market-page .card-premium:hover { height: 100%; }
+
+.market-overview-card { padding: var(--n-space-md); }
+.market-overview-card .card-title { font-size: 1.05rem; }
+
+.market-source {
+font-size: 0.82rem;
+line-height: 1.6;
+}
+
+.market-source a {
+color: var(--n-primary);
+font-weight: 600;
+}
+
+.market-salary {
+display: grid;
+gap: 0.25rem;
+margin-top: 1rem;
+padding-top: 0.9rem;
+border-top: 1px solid var(--n-border);
+font-size: 0.78rem;
+line-height: 1.45;
+}
+
+.market-salary strong {
+color: var(--n-navy);
+font-family: var(--n-font-display);
+font-size: 0.8rem;
+}
+
+.market-step {
+height: 100%;
+padding: var(--n-space-md);
+border: 1px solid var(--n-border);
+border-radius: var(--n-radius-md);
+background: #fff;
+}
+
+.market-skill-panel {
+align-items: flex-start;
+background: #fff;
+}
+
+.market-skill-panel .card-title { margin-bottom: 1rem; }
+
+.market-pill-list {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+}
+
+.market-pill-list span {
+padding: 0.4rem 0.7rem;
+border-radius: var(--n-radius-pill);
+background: var(--n-bg-alt);
+color: var(--n-navy);
+font-size: 0.82rem;
+font-weight: 600;
+}
+
+.market-trend {
+display: flex;
+align-items: center;
+gap: 0.7rem;
+height: 100%;
+padding: 1rem;
+border: 1px solid var(--n-border);
+border-radius: var(--n-radius-md);
+background: #fff;
+color: var(--n-navy);
+font-family: var(--n-font-display);
+font-size: 0.9rem;
+font-weight: 600;
+}
+
+.market-trend i {
+color: var(--n-primary);
+font-size: 1.25rem;
+}
+
+@media (max-width: 575.98px) {
+.market-page .page-header { padding-top: 7rem; }
+.market-page .market-header-text { font-size: 0.95rem; }
+.market-skill-panel { flex-direction: column; }
 }

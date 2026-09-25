@@ -11,7 +11,7 @@
 .menu-principal a {
   display: block;
   padding: 10px 15px;
-  color: #b8977e;
+  color: rgb(152, 119, 119) !important;
   text-decoration: none;
 }
 .p1 {color:white}
